@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(img/fonfo3.png);
+  background-size:cover;
+}
+
+.container1{
+  width: 40%;
+  height: 55%;
+  margin-top: 10rem;
+  border-radius: 50px;
+}
+
+.btnPiedra{
+  width: 20%;
+  height: 20%;
+  margin: 3rem;
+  color: #a09bff;
+  border: none;
+  background-color: #fff9ed;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.btnPiedra :hover{
+  transform: scale(1.5);
+}
+
+.btnPapel{
+  width: 20%;
+  height: 20%;
+  margin: 3rem;
+  color: #a09bff;
+  border: none;
+  background-color: #fff9ed;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.btnPapel :hover{
+  transform: scale(1.5);
+}
+
+.btnTijera{
+  width: 20%;
+  height: 20%;
+  margin: 3rem;
+  color: #a09bff;
+  border: none;
+  background-color: #fff9ed;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.btnTijera :hover{
+  transform: scale(1.5);
+}
+
+.container2{
+  width: 50%;
+  height: 50%;
+  background-color: aqua ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
